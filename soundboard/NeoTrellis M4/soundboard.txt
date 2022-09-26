@@ -1,0 +1,35 @@
+combat_general__hit.wav, RED
+combat_general__blocked.wav, RED
+combat_general__miss.wav, RED
+combat_death__male.wav, ORANGE
+game_door__stone.wav, GREEN
+game_door__wood.wav, GREEN
+game_trap__pit.wav, TEAL
+game_trap__spike.wav, TEAL
+
+combat_magic__hit.wav, RED
+combat_magic__miss.wav, RED
+combat_death__monster.wav, ORANGE
+combat_death__female.wav, ORANGE
+music_turn__evil.wav, YELLOW
+music_turn__heroes.wav, YELLOW
+game_error__buzzer.wav, CHERRY
+game_error__fail.wav, CHERRY
+
+combat_axe__throw-hit.wav, RED
+combat_axe__throw-block.wav, RED
+combat_axe__throw-miss.wav, RED
+magic_restore.wav, BLUE
+game_item__found.wav, YELLOW
+music_mission__goal-complete.wav, YELLOW
+bgm_mission__complete.wav, PURPLE
+bgm_mission__fail.wav, PURPLE
+
+combat_arrow__fire-hit.wav, RED
+combat_arrow__fire-block.wav, RED
+combat_arrow__fire-miss.wav, RED
+magic_buff.wav, BLUE
+magic_debuff.wav, BLUE
+pass
+pass
+pass
