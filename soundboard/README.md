@@ -7,7 +7,9 @@ Ive always wanted to make my games immersive in a way most people couold get int
 ## Parts needed
 
 ![NeoTrellis m4](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/neotrellis-m4-4020.jpeg)
-**NeoTrellis M$**
+
+**NeoTrellis M4**
+
 https://www.adafruit.com/product/4020
 I bought mine from digikey. this kit inlcudes the following parts.
 
@@ -20,11 +22,15 @@ assembly of the NeoTrellis M4 Enclosure kit is pretty straight forward, just not
 https://learn.adafruit.com/adafruit-neotrellis-m4/assembly
 
 ![usb speaker image](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/usb-speakers.jpg)
+
 **USB speaker**
+
 This is the one I bought because it comes with volumen control and the speakers have clips with make it easy to mount to something.
 
 ![Kenji power bank](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/kenji-powerbank-10000mah.jpg)
+
 **Power bank**
+
 I bought the Kenji 10,000 mAh powerbank. This project doesnt require much power. this one was cheap and had dual usb outs and came with a usb to micro-usb to power the board. If you want to use it the same 3d printable frame ull need to make sure your power bank is smaller than 144mm (L) x 70mm (W) x 15mm (H). You could use sponge material to wedge which ever one you use. just make sure ther is access to any on/off button, the usb ports and the recharge port.
 
 ## Documentation and acknowledgements
