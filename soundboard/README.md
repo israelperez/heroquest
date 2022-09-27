@@ -119,7 +119,9 @@ The first line defined the sample used for the top left button. The next line de
 #### Keywords for filenames
 
 **pass** : if the line has the "pass" value, this button will have no sound and will be button will be black.
+
 **bgm_** : if the filename starts with "bgm_" then the sample is played a different layer, the background layer, and won’t be interrupted by other sound effects - only another file starting with "bgm_" will interrupt playback. Example: bgm_mission__complete.wav
+
 **loop** : (only applies to files with files that start with "bgm_") By adding "loop" to the end of a filename, the soundboard will loop the playback of the sample. Examples: bgm_ambience-loop.wav, bgm_combat_loop.wav, bgm_combat-bossloop.wav
 
 #### soundboard.txt
@@ -396,8 +398,8 @@ Once you print all the parts, test fit the parts, you may need to remove materia
 Assemble in the following order. (Images to come soon)
 
 1. Combine the **speaker mount** to the **battery mount** with 2x M3x6mm screws.
-2. Now combine **side B** using another 2 M3x6mm screws.
+2. Now combine **side B** using another 2x M3x6mm screws.
 3. Now add the part **cable tidy** with 1x M3x6mm screw. At this stage you can attach the speakers and start wiring, use the protrusions and wrap the wires. leave enough slack to be able to remove the speakers if need be. The side part has a part where you can zip tie the volume control to it. Ensure the volume dial is facing upwards. Continue to wrap the cable using zip ties as need be. Leave enough slack on the other end to be able to plug the cables into the device and power bank.
 4. Now add **side A** with 2 more M3x6mm screws.
 5. Now its time to prepare the NeoTrellis. Remove the 2 black M3x12mm screws on the sides if you fully assembled the NeoTrellis M4 Enclosure kit. Use these holes and the 2x M3x16mm screws to attach it to the **M4 mount**. There is also a hole for a zip tie so you can pass the 3.5mm audio jack and micro usb through. I didn’t tighten it but kept it as a loose loop.
-6. Finally push the **M4 mount** with the NeoTrellis into the sides and into the tab holes.
+6. Finally push the **M4 mount** with the NeoTrellis into the sides and into the tab holes. Make sure its the right way up, with the ports on the top side.
