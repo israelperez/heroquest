@@ -2,7 +2,20 @@
 
 ## Overview
 
-I’ve always wanted to make my games immersive in a way most people could get into it and enjoy it. So, I decided to create a soundboard. in the past I used websites before using an app on my phone, and now I’ve finally created a standalone self-contained soundboard. Which can be used for anything really.
+I’ve always wanted to make my games immersive in a way that allows most people to get into them and enjoy them. So, I decided to create a soundboard. in the past I used websites before using an app on my phone, and now I’ve finally created a standalone self-contained soundboard which can be used for anything really.
+
+**Copyright Notice**
+The audio samples here were gathered from various sources and have copyright. They have been edited, cleaned and mixed to create the samples used in this project. They are only intended for personal use under creative commons 4.0 (CC BY_NC 4.0) https://creativecommons.org/licenses/by-nc/4.0/
+
+**you are free to:**
+
+- Share: Copy and redistribute the material in any medium or format
+- Adapt: Remix, transform, and build upon the material
+
+**Under the following terms:**
+
+- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- NonCommercial: You may not use the material for commercial purposes.
 
 ## Parts needed
 
@@ -11,7 +24,7 @@ I’ve always wanted to make my games immersive in a way most people could get i
 **NeoTrellis M4**
 
 https://www.adafruit.com/product/4020
-I bought mine from digikey. this kit includes the following parts.
+I bought mine from digikey. This kit includes the following parts:
 
 - 1 x Adafruit NeoTrellis M4 Mainboard
 - 1 x Adafruit NeoTrellis M4 Enclosure kit
@@ -25,20 +38,20 @@ https://learn.adafruit.com/adafruit-neotrellis-m4/assembly
 
 **USB speaker**
 
-This is the one I bought because it comes with volume control and the speakers have clips with make it easy to mount to something.
+This is the one I bought because it comes with volume control and the speakers have clips which make it easy to mount to something.
 
 ![Kenji power bank](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/kenji-powerbank-10000mah.jpg)
 
 **Power bank**
 
-I bought the Kenji 10,000 mAh power bank. This project doesn’t require much power. this one was cheap and had dual usb outs and came with a usb to micro-usb to power the board. If you want to use it the same 3d printable frame you’ll need to make sure your power bank is smaller than 144mm (L) x 70mm (W) x 15mm (H). You could use sponge material to wedge which ever one you use. Just make sure there is access to any on/off button, the usb ports and the recharge port.
+I bought the Kenji 10,000 mAh power bank. This project doesn’t require much power. this one was cheap and had dual usb outs and came with a usb to micro-usb to power the board. If you want to use it the same 3d printable frame you’ll need to make sure your power bank is smaller than 144mm (L) x 70mm (W) x 15mm (H). You could use sponge material to wedge for whichever one you use. Just make sure there is access to any on/off button, the usb ports and the recharge port.
 
 ## Documentation and acknowledgements
 
 ### NeoTrellis M4
 
-https://learn.adafruit.com/adafruit-neotrellis-m4
-It has a lot of information, and it can be overwhelming but it’s there incase you need it. For this project the step are really minor
+You can read https://learn.adafruit.com/adafruit-neotrellis-m4 for detailed information.
+It can be overwhelming but it’s there in case you need it. For this project the steps are really minor
 
 ### Examples
 
@@ -47,41 +60,40 @@ I used the following projects as a basis
 - https://learn.adafruit.com/neotrellis-dungeon-crawl-soundboard
 - https://learn.adafruit.com/star-trek-sound-board-with-neotrellism4
 
-## Prepare the Audio files
+## 1. Setting up the NeoTrellis
 
-With this project there is the option of using up to 32 different audio samples. and 1 intro welcome sample. All the files need to be in the same format. That is **16-bit PCM WAV** at **22,050 Hz** and they need to be either **all Stereo** or **all Mono**. No mix and match! if the non-matching samples are played it will shutdown the unit.
-
-## Setting up the NeoTrellis
-
-1.  update to the latest bootloader
+1.  Update to the latest bootloader
     https://learn.adafruit.com/adafruit-neotrellis-m4/update-the-uf2-bootloader
-    1. essentially is download the UF2 file.
-    2. click the reset button on the back of the board once or twice depending on what’s already running on the board. you should see the NeoTrellis M4 come up as a new drive labelled **something...BOOT**
-    3. drag and drop the bootloader UF2 into the new drive
-2.  install the latest CircuitPython for NeoTrellis
+    1. Essentially this is downloading the UF2 file.
+    2. Click the reset button on the back of the board once or twice depending on what’s already running on the board. You should see the NeoTrellis M4 come up as a new drive labelled **something...BOOT**
+    3. Drag and drop the bootloader UF2 into the new drive
+2.  Install the latest CircuitPython for NeoTrellis
     https://learn.adafruit.com/adafruit-neotrellis-m4/circuitpython
-    1. essentially is download the UF2 file of CircuitPython that is specifically made for this board.
+    1. Essentially this is downloading the UF2 file of CircuitPython that is specifically made for this board.
     2. Double click the reset button and a new drive will appear **something...BOOT**
-    3. drag and drop the circuit python UF2 into the new drive
-3.  add the latest versions of the libraries used in this project.
+    3. Drag and drop the circuit python UF2 into the new drive
+3.  Add the latest versions of the libraries used in this project.
     https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/
-    which one to download is based on which version of Circuit Python you are using. I’ve included version 7x in this repo as it was the stable version at the time of writing this.
+    You’ll need to download the right library for the version of CircuitPython you’re using. I’ve included version 7x in this repo as it was the stable version at the time of writing this.
 
-    for this project you will need the following files and paste them into the **/lib** folder.
+    For this project you will need the following files and paste them into the **/lib** folder:
 
     - adafruit_fancyled **(whole folder)**
     - adafruit_trellism4.mpy
     - neopixel.mpy
     - adafruit_matrixkeypad.mpy
 
-## Code and Audio Samples
+### Quick and easy method
 
 You can download the entire contents of
 https://github.com/israelperez/heroquest/tree/main/soundboard/NeoTrellis%20M4
-and paste it into the root directory of the NeoTrellis. Just be aware that this code is using version 7.x of circuit python, so if you are using another version you will need to grab the correct libraries.
+and paste it into the root directory of the NeoTrellis. Just be aware that this code is using version 7.x of circuit python, so if you are using another version you will need to grab the correct libraries. It would still be worth while to read the rest of this guide incase you have problems or you want to make customisations. Make sure you understand the copyright and skip to section **5. Ready to use.**.
 
-**Copyright Notice**
-The audio samples here were gathered from various sources and thus have copyright. They were edited and combined to create these samples. They are only intended for personal use and can not be sold or distributed.
+## 2. Prepare the Audio files
+
+With this project there is the option of using up to 32 different audio samples and 1 intro welcome sample. All the files need to be in the same format. Which is **16-bit PCM WAV** at **22,050 Hz** and they need to be either **all Stereo** or **all Mono**. No mix and match! If the non-matching samples are played it will shutdown the unit.
+
+## 3. Programming the Audio Samples
 
 ### Welcome and intro
 
@@ -91,24 +103,24 @@ If you want an intro with a swirling light effect, include **welcome.wav** in th
    ```sh
    # with audioio.AudioOut(board.A1, right_channel=board.A0) as audio:
    ```
-2. comment line 40 (add a # at the start)
+2. Comment line 40 (add a # at the start)
    ```sh
    with audioio.AudioOut(board.A1) as audio:
    ```
 
 ### Samples
 
-This project uses the file **soundboard.txt**. This file should be in the root directory of the NeoTrellis. The file defines what sounds files are available, which button on the NeoTrellis is used and the chosen colour of that button. All audio files should be in the **/samples** folder.
+This project uses the file **soundboard.txt**. This file should be in the root directory of the NeoTrellis. The file defines what sound files are available, which button on the NeoTrellis is used and the chosen colour of that button. All audio files should be in the **/samples** folder.
 
 Each line is made up of a filename and a colour, separated by a comma. Colour names correspond to those in the **color_names.py** file.
 
-The first line defined the sample used for the top left button. The next line defines the button to the right unless there are no more on the current row in which case it will defined the first button pf a new line. Blank lines and comments (lines starting with # are ignored. Spaces around the separating commas are also ignored. If the file can’t be found it will be replaced with a pass value
+The first line defined the sample used for the top left button. The next line defines the button to the right unless there are no more on the current row in which case it will be defined the first button of a new line. Blank lines and comments (lines starting with # are ignored. Spaces around the separating commas are also ignored. If the file can’t be found it will be replaced with a pass value
 
 #### Keywords for filenames
 
-**pass** : if the line is pass, this button will have no sound and will be black
-**bgm\_** : if the filename starts with "bgm*" then the sample is played a different layer and it can played in the background and won’t be interrupted but other sound effects. only another file starting with "bgm*" will interrupt playback. Example: bgm*mission\_\_complete.wav
-**loop** : (only applies to files with files that start with "bgm*") By adding "loop" to the end of a file, the soundboard will loop the playback of the sample. Example: bgm_ambience-loop.wav
+**pass** : if the line has the "pass" value, this button will have no sound and will be button will be black.
+**bgm_** : if the filename starts with "bgm_" then the sample is played a different layer, the background layer, and won’t be interrupted by other sound effects - only another file starting with "bgm_" will interrupt playback. Example: bgm_mission__complete.wav
+**loop** : (only applies to files with files that start with "bgm_") By adding "loop" to the end of a filename, the soundboard will loop the playback of the sample. Examples: bgm_ambience-loop.wav, bgm_combat_loop.wav, bgm_combat-bossloop.wav
 
 #### soundboard.txt
 
@@ -171,7 +183,7 @@ WHITE = 0xFFFFFF
 BLACK = 0x000000
 ```
 
-### Soundboard code
+## 4. Soundboard code
 
 **code.py** is the brains of the soundboard
 
@@ -366,21 +378,26 @@ while True:
     current_press = pressed
 ```
 
-## Ready to use
+## 5. Ready to use
 
-Your soundboard is now ready to use how ever you want to. You'll notice pressing the button a second time will stop playback of that sample of the same layer. Pressing a new button will interrupt the currently playing sample of the same layer. Files starting with bgm\_ will play on one layer and all other files on another.
+Your soundboard is now ready to use how ever you want to. You'll notice pressing the button a second time will stop playback of that sample of the same layer. Pressing a new button will interrupt the currently playing sample of the same layer. Files starting with "bgm_" will play on one layer and all other files on another.
 
-## Assembling the Portable solution
+## 6. 3D Printing and Assembling the Portable solution
 
-This frame uses 8x M3x6mm screws and 2x M3x16mm screws.
-you will also need zip ties no wider than 4mm.
+I have designed and craeted a housig frame that neatly packages all the parts of this project. You do not need it to enjoy the soundboard but its saves room and mess on a table top.
+
+You will need:
+- All parts 3d printed. Make sure you test fit the parts before you begin assmebly. Ensure the tabs fit correctly, you may need to remove material from the tabs due to elephants’ foot or inaccuracies in your printer.
+- 8x M3x6mm screws
+- 2x M3x16mm screws.
+- Zip ties no wider than 4mm.
 Once you print all the parts, test fit the parts, you may need to remove material from the tabs due to elephants’ foot or inaccuracies in your printer.
 
 Assemble in the following order. (Images to come soon)
 
 1. Combine the **speaker mount** to the **battery mount** with 2x M3x6mm screws.
 2. Now combine **side B** using another 2 M3x6mm screws.
-3. now add the part **cable tidy** with 1x M3x6mm screw. at this stage you can attach the speakers and start wiring, use the protrusions the wrap the wires. leave enough slack to be able to remove the speakers if need be. The side part has a part where you can zip tie the volume control to it. Ensure the volume dial is facing upwards. Continue to wrap the cable using zip ties as need be. leave enough slack on the other end to be able to plug the cables into the device and power bank.
+3. Now add the part **cable tidy** with 1x M3x6mm screw. At this stage you can attach the speakers and start wiring, use the protrusions and wrap the wires. leave enough slack to be able to remove the speakers if need be. The side part has a part where you can zip tie the volume control to it. Ensure the volume dial is facing upwards. Continue to wrap the cable using zip ties as need be. Leave enough slack on the other end to be able to plug the cables into the device and power bank.
 4. Now add **side A** with 2 more M3x6mm screws.
-5. time to prepare the NeoTrellis. remove the 2 side screws if you fully assembled it. use these holes and the 2x M3x16mm screws to attach it to **M4 mount**. there is also a hole for a zip tie so you can pass the 3.5mm audio jack and micro usb through. I didn’t tighten its but kept it as s lose loop.
-6. Finally push the **M4 mount** with the NeoTrellis into the sides making sure the ports are on the speaker side.
+5. Now its time to prepare the NeoTrellis. Remove the 2 black M3x12mm screws on the sides if you fully assembled the NeoTrellis M4 Enclosure kit. Use these holes and the 2x M3x16mm screws to attach it to the **M4 mount**. There is also a hole for a zip tie so you can pass the 3.5mm audio jack and micro usb through. I didn’t tighten it but kept it as a loose loop.
+6. Finally push the **M4 mount** with the NeoTrellis into the sides and into the tab holes.
