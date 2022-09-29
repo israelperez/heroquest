@@ -1,5 +1,6 @@
 # NeoTrellis M4 Soundboard
 
+![Photo of finished soundboard](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-final-b.png)
 ## Overview
 
 I’ve always wanted to make my games immersive in a way that allows most people to get into them and enjoy them. So, I decided to create a soundboard. in the past I used websites before using an app on my phone, and now I’ve finally created a standalone self-contained soundboard which can be used for anything really.
@@ -411,11 +412,13 @@ Assemble in the following order.
 
 4. Attach the speakers and start wiring, use the protrusions and wrap the wires. leave enough slack to be able to remove the speakers if need be. Once all the wiring is done slide in the power bank.
 
-    ![assembly step 4](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04.png)
+    ![assembly step 4a](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04a-a.png)
+    ![assembly step 4a photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04a-b.png)
 
     The part **side B** has a part where you you need to use zip ties to attach the volume control. Ensure the volume dial is facing upwards. Continue to wrap the cable using zip ties as need be. Leave enough slack on the other end to be able to plug the cables into the device and power bank.
 
-    ![assembly step 4b](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04b.png)
+    ![assembly step 4b](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04b-a.png)
+    ![assembly step 4b photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04b-b.png)
 
 5. Remove the speakers so you can attach **side A** with 2 more M3x6mm screws.
 
