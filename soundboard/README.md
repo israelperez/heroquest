@@ -1,6 +1,6 @@
 # NeoTrellis M4 Soundboard
 
-![Photo of finished soundboard](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-final-b.png)
+![Photo of finished soundboard](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-final-b.png)
 ## Overview
 
 I’ve always wanted to make my games immersive in a way that allows most people to get into them and enjoy them. So, I decided to create a soundboard. in the past I used websites before using an app on my phone, and now I’ve finally created a standalone self-contained soundboard which can be used for anything really.
@@ -20,7 +20,7 @@ The audio samples here were gathered from various sources and have copyright. Th
 
 ## Parts needed
 
-![NeoTrellis m4](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/neotrellis-m4-4020.jpeg)
+![NeoTrellis m4](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/neotrellis-m4-4020.jpeg)
 
 **NeoTrellis M4**
 
@@ -35,13 +35,13 @@ I bought mine from digikey. This kit includes the following parts:
 assembly of the NeoTrellis M4 Enclosure kit is pretty straight forward, just note the order of the acrylic panels is important. If you’re using the 3d printed mount then don’t use the screws on the side, we will use these to attach it to mount.
 https://learn.adafruit.com/adafruit-neotrellis-m4/assembly
 
-![usb speaker image](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/usb-speakers.jpg)
+![usb speaker image](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/usb-speakers.jpg)
 
 **USB speaker**
 
 This is the one I bought because it comes with volume control and the speakers have clips which make it easy to mount to something.
 
-![Kenji power bank](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/kenji-powerbank-10000mah.jpg)
+![Kenji power bank](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/kenji-powerbank-10000mah.jpg)
 
 **Power bank**
 
@@ -87,7 +87,7 @@ I used the following projects as a basis
 ### Quick and easy method
 
 You can download the entire contents of
-https://github.com/israelperez/heroquest/tree/main/soundboard/NeoTrellis%20M4
+https://github.com/israelperez/heroquest/tree/main/soundboard/images/NeoTrellis%20M4
 and paste it into the root directory of the NeoTrellis. Just be aware that this code is using version 7.x of circuit python, so if you are using another version you will need to grab the correct libraries. It would still be worth while to read the rest of this guide incase you have problems or you want to make customisations. Make sure you understand the copyright and skip to section **5. Ready to use.**.
 
 ## 2. Prepare the Audio files
@@ -167,7 +167,7 @@ pass
 
 With the above **soundboard.txt**, you will get the following layout 
 
-![sample layout on soundboard](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/sample-layout.png)
+![sample layout on soundboard](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/sample-layout.png)
 
 #### color_names.py
 
@@ -404,39 +404,39 @@ Assemble in the following order.
 
 1. Combine the **speaker mount** to the **battery mount** with 2x M3x6mm screws.
 
-    ![assembly step 1](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-01.png)
+    ![assembly step 1](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-01.png)
 
 2. Now combine **side B** using another 2x M3x6mm screws.
 
-    ![assembly step 2](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-02.png)
+    ![assembly step 2](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-02.png)
 
 3. Now add the part **cable tidy** with 1x M3x6mm screw. 
 
-    ![assembly step 3](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-03.png)
+    ![assembly step 3](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-03.png)
 
 4. Attach the speakers and start wiring, use the protrusions and wrap the wires. leave enough slack to be able to remove the speakers if need be. Once all the wiring is done slide in the power bank.
 
-    ![assembly step 4a](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04a-a.png)
-    ![assembly step 4a photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04a-b.png)
+    ![assembly step 4a](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-04a-a.png)
+    ![assembly step 4a photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-04a-b.png)
 
     The part **side B** has a part where you you need to use zip ties to attach the volume control. Ensure the volume dial is facing upwards. Continue to wrap the cable using zip ties as need be. Leave enough slack on the other end to be able to plug the cables into the device and power bank.
 
-    ![assembly step 4b](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04b-a.png)
-    ![assembly step 4b photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-04b-b.png)
+    ![assembly step 4b](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-04b-a.png)
+    ![assembly step 4b photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-04b-b.png)
 
 5. Remove the speakers so you can attach **side A** with 2 more M3x6mm screws.
 
-    ![assembly step 5](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-05.png)
+    ![assembly step 5](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-05.png)
 
 6. Now its time to prepare the NeoTrellis. If you fully assembled the NeoTrellis M4 Enclosure kit, remove the 2 black M3x12mm screws on the sides. Use these holes and the 2x M3x16mm screws to attach it to the **M4 mount**. There is also a hole for a zip tie so you can pass the 3.5mm audio jack and micro usb through. I didn’t tighten it but kept it as a loose loop. Made it easier to pass the audio cable and micro usb cable.
 
-    ![assembly step 6](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-06a.png)
-    ![assembly step 6 photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-06b.png)
+    ![assembly step 6](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-06a.png)
+    ![assembly step 6 photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-06b.png)
 
 7. Finally push the **M4 mount** with the NeoTrellis into the sides and into the tab holes. Make sure its the right way up, with the ports facing the speaker. Reattach the speakers.
 
-    ![assembly step 7](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-07.png)
+    ![assembly step 7](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-07.png)
 
 8. All done!
 
-    ![assembly step final](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-final.png)
+    ![assembly step final](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-final.png)
