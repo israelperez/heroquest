@@ -165,6 +165,10 @@ pass
 pass
 ```
 
+With the above **soundboard.txt**, you will get the following layout 
+
+![sample layout on soundboard](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/sample-layout.png)
+
 #### color_names.py
 
 I’ve created and tested my own colour values, the ones it had predefined weren’t well defined or looked so similar that you couldn't tell they were different colours.
@@ -385,7 +389,7 @@ while True:
 
 Your soundboard is now ready to use how ever you want to. You'll notice pressing the button a second time will stop playback of that sample of the same layer. Pressing a new button will interrupt the currently playing sample of the same layer. Files starting with "bgm_" will play on one layer and all other files on another.
 
-## 6. 3D Printing and Assembling the Portable solution
+## 6. 3D Printing and Assembling the portable solution
 
 I have designed and craeted a housig frame that neatly packages all the parts of this project. You do not need it to enjoy the soundboard but its saves room and mess on a table top.
 
