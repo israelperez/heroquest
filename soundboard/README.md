@@ -424,14 +424,15 @@ Assemble in the following order.
 
     ![assembly step 5](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-05.png)
 
-6. Now its time to prepare the NeoTrellis. If you fully assembled the NeoTrellis M4 Enclosure kit, remove the 2 black M3x12mm screws on the sides. Use these holes and the 2x M3x16mm screws to attach it to the **M4 mount**. There is also a hole for a zip tie so you can pass the 3.5mm audio jack and micro usb through. I didn’t tighten it but kept it as a loose loop. 
+6. Now its time to prepare the NeoTrellis. If you fully assembled the NeoTrellis M4 Enclosure kit, remove the 2 black M3x12mm screws on the sides. Use these holes and the 2x M3x16mm screws to attach it to the **M4 mount**. There is also a hole for a zip tie so you can pass the 3.5mm audio jack and micro usb through. I didn’t tighten it but kept it as a loose loop. Made it easier to pass the audio cable and micro usb cable.
 
-    ![assembly step 6](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-06.png)
+    ![assembly step 6](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-06a.png)
+    ![assembly step 6 photo](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-06b.png)
 
-7. Finally push the **M4 mount** with the NeoTrellis into the sides and into the tab holes. Make sure its the right way up, with the ports on the top side. Reattach the speakers
+7. Finally push the **M4 mount** with the NeoTrellis into the sides and into the tab holes. Make sure its the right way up, with the ports facing the speaker. Reattach the speakers.
 
     ![assembly step 7](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-07.png)
 
-8. All done
+8. All done!
 
     ![assembly step final](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/step-final.png)
