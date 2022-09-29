@@ -3,7 +3,7 @@
 ![Photo of finished soundboard](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/step-final-b.png)
 ## Overview
 
-I’ve always wanted to make my games immersive in a way that allows most people to get into them and enjoy them. So, I decided to create a soundboard. in the past I used websites before using an app on my phone, and now I’ve finally created a standalone self-contained soundboard which can be used for anything really.
+I’ve always wanted to make my games immersive in a way that allows most people to get into them and enjoy them. So, I decided to create a soundboard. In the past I used websites before using an app on my phone, and now I’ve finally created a standalone self-contained soundboard which can be used for anything really.
 
 **Copyright Notice**
 The audio samples here were gathered from various sources and have copyright. They have been edited, cleaned and mixed to create the samples used in this project. They are only intended for personal use under creative commons 4.0 (CC BY_NC 4.0) https://creativecommons.org/licenses/by-nc/4.0/
@@ -25,6 +25,7 @@ The audio samples here were gathered from various sources and have copyright. Th
 **NeoTrellis M4**
 
 https://www.adafruit.com/product/4020
+
 I bought mine from digikey. This kit includes the following parts:
 
 - 1 x Adafruit NeoTrellis M4 Mainboard
@@ -32,7 +33,7 @@ I bought mine from digikey. This kit includes the following parts:
 - 2 x Silicone Elastomer 4x4 Button Keypad
 - 1 x Little Rubber Bumper Feet (4 bumpers total)
 
-assembly of the NeoTrellis M4 Enclosure kit is pretty straight forward, just note the order of the acrylic panels is important. If you’re using the 3d printed mount then don’t use the screws on the side, we will use these to attach it to mount.
+Assembly of the NeoTrellis M4 Enclosure kit is pretty straight forward, just note the order of the acrylic panels is important. If you’re using the 3d printed mount then don’t use the screws on the side, we will use these to attach it to mount.
 https://learn.adafruit.com/adafruit-neotrellis-m4/assembly
 
 ![usb speaker image](https://raw.githubusercontent.com/israelperez/heroquest/main/soundboard/images/usb-speakers.jpg)
@@ -46,6 +47,12 @@ This is the one I bought because it comes with volume control and the speakers h
 **Power bank**
 
 I bought the Kenji 10,000 mAh power bank. This project doesn’t require much power. this one was cheap and had dual usb outs and came with a usb to micro-usb to power the board. If you want to use it the same 3d printable frame you’ll need to make sure your power bank is smaller than 144mm (L) x 70mm (W) x 15mm (H). You could use sponge material to wedge for whichever one you use. Just make sure there is access to any on/off button, the usb ports and the recharge port.
+
+**3D files for mounting frame**
+
+You can download the files from
+- https://www.printables.com/model/285417-soundboard
+- https://www.thingiverse.com/thing:5538175
 
 ## Documentation and acknowledgements
 
@@ -391,7 +398,7 @@ Your soundboard is now ready to use how ever you want to. You'll notice pressing
 
 ## 6. 3D Printing and Assembling the portable solution
 
-I have designed and craeted a housig frame that neatly packages all the parts of this project. You do not need it to enjoy the soundboard but its saves room and mess on a table top.
+I have designed this mounting frame that neatly packages all the parts of this project. You do not need it to enjoy the soundboard but its saves room and mess on a table top.
 
 You will need:
 - All parts 3d printed. Make sure you test fit the parts before you begin assmebly. Ensure the tabs fit correctly, you may need to remove material from the tabs due to elephants’ foot or inaccuracies in your printer.
